@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'prova-p5'`, () => {
+  it(`should have as title 'dab-sunburst-chart'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('prova-p5');
+    expect(app.title).toEqual('dab-sunburst-chart');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('prova-p5 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('dab-sunburst-chart app is running!');
   });
 });
