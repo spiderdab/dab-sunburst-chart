@@ -6,11 +6,13 @@
 Welcome to dab-sunburst-chart's documentation!
 ==============================================
 
+Esempio testo documentazione *italico* e **Boldface**
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+``esempio di codice: codice scritto..``
 
 Indices and tables
 ==================
